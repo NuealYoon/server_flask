@@ -7,6 +7,7 @@ console.log(typeof(input[0].value))
 
 display[0].innerHTML = input[0].value
 
+# 버튼을 누르면 dispaly되는 데이터를 파일로 저장
 let input_to_output = async function(){
 
     let val = input[0].value;
